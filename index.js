@@ -763,7 +763,7 @@ var NotificationComponent = (function() {
                 style({ opacity: 0, transform: 'translateX(5%)' }),
                 animate('400ms ease-in-out')
               ]),
-              state('fromRightOut', style({ opacity: 0, transform: 'translateX(-5%)' })),
+              state('fromRightOut', style({ opacity: 0, transform: 'translateX(5%)' })),
               transition('fromRight => fromRightOut', [
                 style({ opacity: 1, transform: 'translateX(0)' }),
                 animate('300ms ease-in-out')
