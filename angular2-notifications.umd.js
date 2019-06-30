@@ -781,7 +781,7 @@
                   animations.style({ opacity: 0, transform: 'translateX(5%)' }),
                   animations.animate('400ms ease-in-out')
                 ]),
-                animations.state('fromRightOut', animations.style({ opacity: 0, transform: 'translateX(-5%)' })),
+                animations.state('fromRightOut', animations.style({ opacity: 0, transform: 'translateX(5%)' })),
                 animations.transition('fromRight => fromRightOut', [
                   animations.style({ opacity: 1, transform: 'translateX(0)' }),
                   animations.animate('300ms ease-in-out')
